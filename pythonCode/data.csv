@@ -1,0 +1,3 @@
+Name,Difficulty,Time,Inputs,Errors,Failures
+Matt,3,24,42,0,False
+Stephen,9,143,67,2,True
