@@ -1,9 +1,6 @@
 import csv
 import os
 
-def main():
-    executeSurvey()
-
 def executeSurvey():
     data = []
 
@@ -59,6 +56,9 @@ def writeToCSV(data):
                 person["Name"], person["Difficulty"], person["Time"],
                 person["Inputs"], person["Errors"], person["Failures"]
             ])
+
+def main():
+    executeSurvey()
 
 if __name__ == "__main__":
     main()
