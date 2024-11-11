@@ -13,6 +13,7 @@ def plotStatistics(means, standardDiv):
     print("Standard Deviations: ")
     print(standardDiv)
 
+
     plt.figure()
 
     #plot for difficulty
@@ -48,6 +49,6 @@ if __name__ == "__main__":
 
     means, standardDiv = calculateStatistics(graph)
 
-    plotStatistics(mean, standardDiv)
+    plotStatistics(means, standardDiv)
 
     
